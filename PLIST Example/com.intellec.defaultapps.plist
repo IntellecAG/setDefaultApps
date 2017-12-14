@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>force</key>
+	<array>
+		<dict>
+			<key>Trigger</key>
+			<string>default, browser</string>
+			<key>Comment</key>
+			<string>Default browser settings</string>
+			<key>AppID</key>
+			<string>com.google.Chrome</string>
+			<key>Typ</key>
+			<string>content</string>
+			<key>Handler</key>
+			<string>public.xhtml</string>
+		</dict>
+		<dict>
+			<key>Trigger</key>
+			<string>default, browser</string>
+			<key>Comment</key>
+			<string>Default browser settings</string>
+			<key>AppID</key>
+			<string>com.google.chrome</string>
+			<key>Typ</key>
+			<string>url</string>
+			<key>Handler</key>
+			<string>https</string>
+		</dict>
+		<dict>
+			<key>Trigger</key>
+			<string>default, browser</string>
+			<key>Comment</key>
+			<string>Default browser settings</string>
+			<key>AppID</key>
+			<string>com.google.chrome</string>
+			<key>Typ</key>
+			<string>url</string>
+			<key>Handler</key>
+			<string>http</string>
+		</dict>
+		<dict>
+			<key>Trigger</key>
+			<string>default, browser</string>
+			<key>Comment</key>
+			<string>Default browser settings</string>
+			<key>AppID</key>
+			<string>com.google.Chrome</string>
+			<key>Typ</key>
+			<string>content</string>
+			<key>Handler</key>
+			<string>public.html</string>
+		</dict>
+		<dict>
+			<key>Trigger</key>
+			<string>default, mail</string>
+			<key>Comment</key>
+			<string>Default Mail Application</string>
+			<key>AppID</key>
+			<string>com.microsoft.outlook</string>
+			<key>Typ</key>
+			<string>url</string>
+			<key>Handler</key>
+			<string>mailto</string>
+		</dict>
+		<dict>
+			<key>Trigger</key>
+			<string>default</string>
+			<key>Comment</key>
+			<string>Default Call Application</string>
+			<key>AppID</key>
+			<string>com.microsoft.SkypeForBusiness</string>
+			<key>Typ</key>
+			<string>url</string>
+			<key>Handler</key>
+			<string>sip</string>
+		</dict>
+	</array>
+</dict>
+</plist>
